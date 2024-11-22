@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import LogoImg from "../../assets/images/book-logo.png";
 import s from "./styles.module.scss";
 import searchImg from "../../assets/images/search.png";
@@ -13,13 +14,13 @@ export default function Header() {
         <nav>
           <ul>
             <li>
-              <a href="#">Início</a>
+              <Link to="/">Início</Link>
             </li>
             <li>
-              <a href="#">Livros Doados</a>
+              <Link to="/livros-doados">Livros Doados</Link>
             </li>
             <li>
-              <a href="#">Quero Doar</a>
+              <Link to="/quero-doar">Quero Doar</Link>
             </li>
           </ul>
         </nav>
