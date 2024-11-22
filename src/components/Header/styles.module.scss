@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+header {
+  background: linear-gradient(90deg, #001b2f 0%, #005695 100%);
+  color: #fff;
+  height: 137px;
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1440px;
+  margin: 0 auto;
+
+  div {
+    display: flex;
+    align-items: center;
+  }
+
+  &__paragraph {
+    margin-left: 9px;
+  }
+
+  ul {
+    display: flex;
+    list-style: none;
+
+    li {
+      margin-right: 41px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      a {
+        color: #fff;
+        text-decoration: none;
+      }
+    }
+  }
+
+  &__search {
+    border: solid 2px #fff;
+    border-radius: 20px;
+
+    img {
+      width: 20px;
+      height: 20px;
+      margin-right: 1rem;
+      cursor: pointer;
+    }
+  }
+
+  input {
+    background-color: transparent;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    padding: 5px;
+    margin-left: 10px;
+    width: 150px;
+    height: 40px;
+    color: #fff;
+
+    &::placeholder {
+      color: #fff;
+    }
+  }
+}

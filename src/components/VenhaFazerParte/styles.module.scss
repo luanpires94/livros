@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+main {
+  display: flex;
+  align-items: center;
+  background-image: url("../../assets/images/book-background.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 554px;
+}
+
+.container {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1440px;
+  margin: 0 auto;
+
+  &__box {
+    width: 322px;
+    margin: 200px 0 220px 125px;
+
+    h1 {
+      color: #fff;
+      font-size: 32px;
+    }
+  }
+}

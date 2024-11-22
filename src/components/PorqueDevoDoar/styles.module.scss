@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+.container {
+  font-family: "Inter", sans-serif;
+  width: 1440px;
+  margin: 0 auto;
+
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #005695;
+    margin: 87px 0 55px 94px;
+  }
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 84px 0 84px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 286px;
+  height: 321px;
+  text-align: center;
+  background-color: #0157944d;
+  border-radius: 10px;
+  padding: 31px 25px 64px 25px;
+
+  img {
+    width: 100px;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  p {
+    margin-top: 10px;
+    font-size: 22px;
+    color: #000;
+  }
+}
